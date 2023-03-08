@@ -60,7 +60,7 @@ const ModalDetail = ({ handleClose, open,item}) => {
             <Grid item xs={6} md={6}>
               <div style={{width:'100%'}}>
               <img height="250" width="90%" src={item.imageLink} style={{ borderRadius: 3 }} alt="yidiyada" />
-              <Button className='modal-button' sx={{background:"#443895", color:"#fff", width:"90%",  fontFamily:' Nunito, sans-serif'}}><a href={item.link}>Make an Offer</a>  </Button>
+              <a style={{textDecoration:'none',color:'#fff'}} target="_blank" href={item.link}> <Button className='modal-button' sx={{background:"#443895", color:"#fff", width:"90%",  fontFamily:' Nunito, sans-serif'}}>Make an Offer</Button></a>
 
               </div>
             </Grid>
@@ -87,7 +87,7 @@ const ModalDetail = ({ handleClose, open,item}) => {
                 </Typography>
               </div>
 
-              <Typography sx={bottomText} variant='h4'>Top Offer : <span style={{color:'grey'}}> {item.topOffer}</span> Eth</Typography>
+              <Typography sx={bottomText} variant='h5'>Top Offer : <span style={{color:'grey'}}> {item.topOffer}</span> Eth</Typography>
             </Grid>
           </Grid>
 
