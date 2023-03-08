@@ -1,4 +1,5 @@
-# Getting Started with Create React App
+<b>I could have used Opensea API to better populate the data, but Opensea team could not send the API key before the deadline of the task. 
+So I had to populate it with dummy data.</b>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
