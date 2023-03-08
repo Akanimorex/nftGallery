@@ -1,0 +1,10 @@
+card-button:hover {
+    background-color: red !important;
+}
+.card-detail:hover {
+    transform: scale(1.2) !important;
+}
+
+.modal-button:hover {
+    background:grey!important;
+}
